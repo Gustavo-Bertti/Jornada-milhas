@@ -1,0 +1,17 @@
+@import 'src/app/constant/defaultStyle.scss';
+
+.app-header{
+    button{
+        margin: 0 16px;
+    }
+    .spacer {
+        flex: 1 1 auto;
+      }
+    .mat-toolbar{
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+    .mat-mdc-outlined-button:not(:disabled) {
+        border-color: $secondary-color;
+    }
+}  
